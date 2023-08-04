@@ -7,10 +7,10 @@ export const Banner = () => {
   return (
     <>
     <Box sx={{display:"flex",backgroundColor:"#D74E16",justifyContent:"space-between",alignItems:"center"}}>
-        <Box sx={{marginBottom:"-37px"}}>
+        <Box sx={{marginBottom:"-3px",marginTop:"38px"}}>
           <img src={bannerleft} alt="banner-left-img"></img>
         </Box>
-            <Box sx={{width:"-webkit-fill-available"}}>
+            <Box sx={{flexGrow:3}}>
                <Box sx={{display:"flex",justifyContent:"center",alignItems:"center",marginBottom:"70px",gap:"10px"}}> 
                 <Typography variant='span' className='banner-Find'>Find Anyting</Typography>
                 <Typography variant='span' className='banner-location-box'>
@@ -23,7 +23,7 @@ export const Banner = () => {
 </svg>
                </Box>
             </Box>
-            <Box sx={{marginBottom:"-3px"}}>
+            <Box sx={{marginBottom:"-11px"}}>
             <img src={bannerright} alt="banner-right-img"></img>
             </Box>
     </Box>
