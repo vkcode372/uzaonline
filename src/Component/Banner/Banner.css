@@ -1,0 +1,36 @@
+.banner-middle-search {
+    width: -webkit-fill-available;
+    padding: 20px 20px;
+    border-radius: 6px;
+background: #FFF;
+border: none;
+}
+.banner-search-parent{
+    position: relative;
+}
+.banner-search-parent svg{
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-32%);
+}
+.banner-location-box {
+    display: inline-block;
+    background: #ffffff;
+    border-radius: 6px;
+    width: 102px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 6px 10px;
+    justify-content: space-evenly;
+}
+.banner-Find{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
