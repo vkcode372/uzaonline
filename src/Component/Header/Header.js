@@ -12,7 +12,7 @@ export const Header = () => {
       <Box className="HeaderComponent" sx={{ display: "flex", justifyContent: "space-between", margin: "10px 30px 0",alignItems:"center" }}>
         <Box><img src={uzaonline} alt='logo' /></Box>
         <Box sx={{display:"flex", gap:"23px"}}>
-          <Box>
+          <Box sx={{cursor:"pointer"}}>
           <img src={down} alt='down' />
             <Typography variant='body1' gutterBottom>
         sign
@@ -20,13 +20,13 @@ export const Header = () => {
           </Box>
           
          
-           <Box>
+           <Box sx={{cursor:"pointer"}}>
            <img src={doc} alt='doc' />
             <Typography variant='body1'>Registration</Typography>
            </Box>
            
         
-            <Box>
+            <Box sx={{cursor:"pointer"}}>
             <img src={sel} alt='sel' />
             <Typography variant='body1'>Sell</Typography>
             </Box>

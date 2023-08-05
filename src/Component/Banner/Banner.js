@@ -6,7 +6,7 @@ import bannerright from "./images/banner-right.png"
 export const Banner = () => {
   return (
     <>
-    <Box sx={{display:"flex",backgroundColor:"#D74E16",justifyContent:"space-between",alignItems:"center"}}>
+    <Box sx={{display:"flex",backgroundColor:"#D74E16",justifyContent:"space-between",alignItems:"center",padding:"0 40px"}}>
         <Box sx={{marginBottom:"-3px",marginTop:"38px"}}>
           <img src={bannerleft} alt="banner-left-img"></img>
         </Box>

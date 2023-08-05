@@ -5,6 +5,10 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const importAll = (requireContext) => requireContext.keys().map(requireContext);
+const images = importAll(require.context(".", false, /\.(png|jpe?g|svg)$/));
+
+export default images;
 root.render(
   <React.StrictMode>
     <App />
